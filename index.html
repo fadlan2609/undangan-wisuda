@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fadlan Wisuda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simply countdown   -->
+    <link rel="stylesheet" href="countdown/cyber.min.css" />
+    <script src="countdown/simplyCountdown.umd.js"></script>
+
+    <!-- Boostrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-item-center text-white"
+    >
+      <main>
+        <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
+        <h1>Fadlan Fiqri Fauzan</h1>
+        <p>Akan Melangsungkan Acara Wisuda dalam:</p>
+        <div class="simply-countdown-cyber"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScrool()">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Fadlan</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Fadlan</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Galerry</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Wisuda</h2>
+            <h3>Diselenggarakan pada 25 November 2025 di Siantar Hotel, Sumatra Utara.</h3>
+            <p>Oleh karena itu, dengan segala hormat, Saya bermaksud untuk mengundang Bapak/Ibu,
+            Saudara/i, untuk hadir pada acara wisuda saya.</p>
+          </div>
+        </div>
+
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Fadlan Fiqri Fauzan</h3>
+                <p>Nama saya Fadlan Fiqri Fauzan, lahir pada 26 September 2003. Saya adalah anak kedua dari empat bersaudara yang beruntung memiliki orang tua hebat</p>
+                <p>Putra dari bpk. Mhd. Ilham <br> dan <br> Ibu Rini Puspita Juliandary</p>
+            </div>
+            <div class="col-4">
+              <img src="img/fauzan.jpg" alt="fauzan" class="img-responsive rounded-circle">
+            </div>
+          </div>
+        </div>
+
+        <span class="graduation"><i class="bi bi-mortarboard-fill"></i></span>
+
+                  <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/fadlan.jpg" alt="fadlan" class="img-responsive rounded-circle">
+              </div>
+              <div class="col-8">
+                <h3>Fadlan Fiqri Fauzan S. Kom</h3>
+                <p>Saya mengucapkan terima kasih kepada kedua orang tua saya, Bapak Mhd. Ilham dan Ibu Rini Puspita Juliandary, yang telah memberikan dukungan dan membiayai pendidikan saya hingga akhirnya saya dapat menyelesaikan kuliah dan meraih gelar S.Kom.</p>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: Siantar Hotel <br> Jl. WR Supratman No. 3 Dwikora, Proklamasi, Kec. Siantar Bar., Kota Pematang Siantar</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3984.501567304116!2d99.0588713!3d2.9582342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031845ea25f61e1%3A0xb0b534aff6052a59!2sSiantar%20Hotel!5e0!3m2!1sid!2sid!4v1761207045394!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a href="https://maps.app.goo.gl/bjtqUbExcrT6MKWW8" target="-blank" class="btn btn-light btn-sn my-3">Klik untuk membuka peta</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakalah tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan wisuda, boleh jadi Anda salah jadwal, atau salah tempat.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+   <div class="card-header">Wisuda Dimulai</div>
+  <div class="card-body">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <i class="bi bi-clock d-block"></i>
+        <span>08.00 - 12.00</span>
+      </div>
+      <div class="col-md-6">
+        <i class="bi bi-calendar3 d-block"></i>
+        <span>Sabtu, 25 Oktober 2025</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer">
+    Saat acara wisuda Diharapkan untuk kondusif menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaiamana Perjalan Menuju Wisuda</span>
+            <h2>Cerita Saya</h2>
+            <p>Perjalanan saya dimulai dari langkah pertama masuk kuliah, berkembang melalui pengalaman berharga saat magang, hingga perjuangan skripsi yang akhirnya membawa kebanggaan tersendiri.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/masuk1.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Masuk</h3>
+                    <span>25 September 2021</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Hari pertama masuk kuliah, saya merasa gugup sekaligus bersemangat memulai perjalanan baru penuh harapan.</p>
+                  </div>
+                </div>
+
+              </li>
+                            <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/magang2.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Magang</h3>
+                    <span>01 junli 2024</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Saat magang, saya belajar menghadapi tantangan nyata, menambah pengalaman, keterampilan, dan kepercayaan diri profesional baru.</p>
+                  </div>
+                </div>
+
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/skripsi.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>SKRIPSIAN</h3>
+                    <span>01 junuari 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Masa skripsian menguji ketekunan saya, penuh revisi, perjuangan, doa, hingga akhirnya membuahkan hasil sangat membanggakan.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memory Perkuliahan</span>
+            <h2>Galeri Poto</h2>
+            <p>Memori perkuliahan penuh cerita indah, persahabatan, tawa, tangis, tugas tak berujung, perjuangan, serta kenangan berharga yang akan selalu dikenang selamanya.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/galeri1.jpg" data-toggle="lightbox" data-caption="Fadlan" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thumnail 1.jpg" alt="Fadlan Fiqri Fauzan 1" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri 2.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail2.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri3.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail3.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri4.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail4.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri5.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail5.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri6.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail6.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri7.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail7.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/gallery/galeri8.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/thubnail8.jpg" alt="Fadlan Fiqri Fauzan 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+  </div>
+</section>
+
+<section id="rsvp" class="rsvp">
+    <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan Konfirmasi kehadiran.</p>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" 
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbzLzNpgyvSvX8iPKE6HxNYeT3OHDKmEVaOwJDugHd2vmG7m_FqvMeHsCP0BrNvuWMCi/exec" id="my-form">
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="nama" class="form-label">Nama</label>
+  <input type="text" class="form-control" id="nama" name="nama">
+</div>
+  </div>
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="jumlah" class="form-label">Jumlah</label>
+  <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+</div>
+  </div>
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="status" class="form-label">Konfirmasi</label>
+  <select name="status" id="status" class="form-select">
+    <option selected>Pilih salah satu</option>
+    <option value="Hadir">Hadir</option>
+    <option value="Tidak Hadir">Tidak Hadir</option>
+  </select>
+</div>
+  </div>
+  <div class="col-12" style="margin-top: 35px;">
+    <button class="btn btn-primary">Kirim</button>
+  </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://fadlan-graduation.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="gifts" class="gifts">
+  <div class="container">
+    <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Ungkapan Tanda Kasih</span>
+            <h2>Kirim hadiah</h2>
+            <p>Terima kasih atas doa, dukungan, pengorbanan, dan kasih sayang yang selalu menguatkan langkah saya hingga mencapai pencapaian berharga ini.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="fw-bold">DANA</div>
+                  085362682021 - Fadlan Fiqri Fauzan
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Gopay</div>
+                  085362682021 - Fadlan Fiqri Fauzan
+                </li>
+                <li class="list-group-item">
+                  <div class="fw-bold">Saweria</div>
+                  <img src="img/saweria.png" alt="Saweria QR" class="img-thumbnail" width="150">
+                </li>
+              </ul>
+          </div>
+        </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <small class="block">&copy;2025 Fadlan Fiqri Fauzan Graduation. All Right Reserved.</small>
+        <small class="block">Design by <a href="https://instagram.com/fdlann.26">@fdlann.26</a>.</small>
+
+        <ul class="mt-3">
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+          <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="audio-container">
+  <audio id="song" autoplay loop>
+    <source src="audio/peaciful-day.mp3" type="audio/mp3">
+  </audio>
+
+  <div class="audio-icon-wrapper" style="display: none;">
+    <i class="bi bi-disc"></i>
+  </div>
+</div>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown-cyber", {
+        year: 2025, // Target year (required)
+        month: 10, // Target month [1-12] (required)
+        day: 25, // Target day [1-31] (required)
+        hours: 10, // Target hour [0-23], default: 0
+        minutes: 0, // Target minute [0-59], default: 0
+        seconds: 0, // Target second [0-59], default: 0
+        words: {
+          // Custom labels, with lambda for plurals
+          days: {
+            root: "hari",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          hours: {
+            root: "jam",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          minutes: {
+            root: "menit",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+          seconds: {
+            root: "detik",
+            lambda: (root, n) => (n > 1 ? root + "" : root),
+          },
+        },
+      });
+    </script>
+
+    <script>
+  function goToHome(event) {
+    event.preventDefault();
+    enableScrool();
+    document.querySelector("#home").scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'visible' ;
+      });
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
+      });
+
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+      const audioIcon = document.querySelector('.audio-icon-wrapper i');
+      const song = document.querySelector('#song')
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScrool() {
+        window.onscroll = function () { }
+        rootElement.style.scrollBehavior = 'smooth';
+        //localStorage.setItem('opened', 'true');
+        playAudio();
+      }
+
+      function playAudio() {
+        song.volume = 0.3;
+        audioIconWrapper.style.display ='flex';
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function() {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+      }
+
+      //if (!localStorage.getItem('opened')) {
+    //  disableScroll();
+    //  }
+    disableScroll();
+    </script>
+
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Konfirmasi kehadiran berhasil terkirim!");
+    })
+  });
+});
+
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n') || '';
+      const pronoun = urlParams.get('p') || 'Bapak/Ibu/Saudara/i';
+      const namaContainer = document.querySelector('.hero h4 span');
+      namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+
+      document.querySelector('#nama').value = nama;
+    </script>
+
+  </body>
+</html>

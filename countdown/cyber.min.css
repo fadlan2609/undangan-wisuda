@@ -1,0 +1,91 @@
+.simply-countdown-cyber {
+    overflow: visible;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.75rem;
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    perspective: 1000px;
+    position: relative;
+    z-index: 3; /* di atas background hero */
+}
+
+/* === KOTAK TIMER === */
+.simply-countdown-cyber > .simply-section {
+    width: 80px;
+    height: 80px;
+    padding: 1.75rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: .5rem;
+    transition: .4s cubic-bezier(.175, .885, .32, 1.275);
+    transform-style: preserve-3d;
+    backdrop-filter: blur(12px);
+
+    /* === Fix: Hapus background foto yang ikut ke timer === */
+    background: linear-gradient(135deg, rgba(23,25,35,0.95), rgba(15,17,25,0.98));
+    background-image: none !important;
+    box-shadow: 0 0 10px rgba(120, 240, 255, 0.15);
+}
+
+/* Efek tepi dan hover */
+.simply-countdown-cyber > .simply-section::before,
+.simply-countdown-cyber > .simply-section::after {
+    content: none !important; /* hapus layer berbayang yang kadang ikut memantulkan foto */
+}
+
+.simply-countdown-cyber > .simply-section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, .5),
+                0 0 20px rgba(120, 240, 255, .2),
+                0 0 0 1px rgba(120, 240, 255, .1);
+}
+
+/* Isi dalam timer */
+.simply-countdown-cyber > .simply-section > div {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    align-items: center;
+}
+
+/* === ANGKA === */
+.simply-countdown-cyber > .simply-section .simply-amount {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(to bottom right, #78f0ff, #ff5adc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 20px rgba(120, 240, 255, .3),
+                 0 0 40px rgba(120, 240, 255, .2);
+}
+
+/* === LABEL (HARI, JAM, MENIT, DETIK) === */
+.simply-countdown-cyber > .simply-section .simply-word {
+    font-size: .7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: rgba(255, 255, 255, .7);
+}
+
+/* Responsif */
+@media (min-width:640px) {
+    .simply-countdown-cyber > .simply-section {
+        width: 100px;
+        height: 100px;
+        padding: 2rem;
+    }
+
+    .simply-countdown-cyber > .simply-section .simply-amount {
+        font-size: 2.3rem;
+    }
+
+    .simply-countdown-cyber > .simply-section .simply-word {
+        font-size: .8rem;
+    }
+}
